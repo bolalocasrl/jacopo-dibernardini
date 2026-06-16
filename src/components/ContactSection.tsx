@@ -101,9 +101,12 @@ export default function ContactSection() {
                   />
                   <span className="text-[#f5f0e8]/40 text-xs leading-relaxed">
                     {t.contact.privacyText}{' '}
-                    <a href="/privacy" className="text-[#c9b87a] hover:underline">
+                    <span
+                      onClick={() => { window.history.pushState({}, '', '/privacy'); window.dispatchEvent(new PopStateEvent('popstate')) }}
+                      className="text-[#c9b87a] hover:underline cursor-pointer"
+                    >
                       {t.contact.privacyLink}
-                    </a>
+                    </span>
                   </span>
                 </label>
                 <button
