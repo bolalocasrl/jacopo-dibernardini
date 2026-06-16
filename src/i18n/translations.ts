@@ -54,6 +54,13 @@ export const translations = {
         },
       ],
     },
+    sport: {
+      title: 'Nel mondo dello sport',
+      p1: "Lo sport è parte della mia vita da sempre — prima come giocatore di basket a livello agonistico, poi come fisioterapista al servizio di atleti e squadre professionistiche. Questa doppia prospettiva mi permette di capire davvero cosa vuol dire competere ad alto livello e di accompagnare ogni atleta con un approccio che nasce dall'esperienza sul campo.",
+      p2: 'Ho collaborato con squadre di basket di Serie A2 e leghe europee, occupandomi di prevenzione degli infortuni, trattamento in acuto e riabilitazione. Ogni atleta è diverso: il mio obiettivo è sempre far tornare al campo nel minor tempo possibile, senza compromettere la salute a lungo termine.',
+      asPlayer: 'Come giocatore',
+      asPhysio: 'Come fisioterapista',
+    },
     contact: {
       title: 'Contatti',
       subtitle: 'Prenota una visita o richiedimi informazioni',
@@ -67,6 +74,8 @@ export const translations = {
       error: "Errore nell'invio. Riprova o contattami direttamente.",
       directContact: 'Contatto diretto',
       locations: 'Sedi',
+      privacyText: 'Ho letto e accetto la',
+      privacyLink: 'Privacy Policy',
     },
     footer: {
       rights: 'Tutti i diritti riservati',
@@ -126,6 +135,13 @@ export const translations = {
         },
       ],
     },
+    sport: {
+      title: 'En el mundo del deporte',
+      p1: 'El deporte forma parte de mi vida desde siempre — primero como jugador de baloncesto a nivel competitivo, luego como fisioterapeuta al servicio de atletas y equipos profesionales. Esta doble perspectiva me permite entender de verdad lo que significa competir a alto nivel y acompañar a cada atleta con un enfoque nacido de la experiencia sobre el terreno.',
+      p2: 'He colaborado con equipos de baloncesto de Serie A2 y ligas europeas, ocupándome de la prevención de lesiones, tratamiento agudo y rehabilitación. Cada atleta es diferente: mi objetivo es siempre volver al campo lo antes posible, sin comprometer la salud a largo plazo.',
+      asPlayer: 'Como jugador',
+      asPhysio: 'Como fisioterapeuta',
+    },
     contact: {
       title: 'Contacto',
       subtitle: 'Reserva una consulta o solicita información',
@@ -139,6 +155,8 @@ export const translations = {
       error: 'Error al enviar. Inténtalo de nuevo o contáctame directamente.',
       directContact: 'Contacto directo',
       locations: 'Sedes',
+      privacyText: 'He leído y acepto la',
+      privacyLink: 'Política de Privacidad',
     },
     footer: {
       rights: 'Todos los derechos reservados',
@@ -198,6 +216,13 @@ export const translations = {
         },
       ],
     },
+    sport: {
+      title: 'In the world of sport',
+      p1: 'Sport has always been part of my life — first as a competitive basketball player, then as a physiotherapist serving athletes and professional teams. This dual perspective allows me to truly understand what it means to compete at a high level and to support each athlete with an approach born from hands-on experience.',
+      p2: 'I have worked with basketball teams in Serie A2 and European leagues, handling injury prevention, acute treatment and rehabilitation. Every athlete is different: my goal is always to get them back on the field as quickly as possible, without compromising long-term health.',
+      asPlayer: 'As a player',
+      asPhysio: 'As a physiotherapist',
+    },
     contact: {
       title: 'Contact',
       subtitle: 'Book an appointment or request information',
@@ -211,6 +236,8 @@ export const translations = {
       error: 'Sending error. Please try again or contact me directly.',
       directContact: 'Direct contact',
       locations: 'Locations',
+      privacyText: 'I have read and accept the',
+      privacyLink: 'Privacy Policy',
     },
     footer: {
       rights: 'All rights reserved',

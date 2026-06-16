@@ -1,20 +1,23 @@
-import { Route, Switch } from 'wouter'
 import Navbar from './components/Navbar'
-import Home from './pages/Home'
-import About from './pages/About'
-import Services from './pages/Services'
-import Contact from './pages/Contact'
+import HeroSection from './components/HeroSection'
+import AboutSection from './components/AboutSection'
+import ServicesSection from './components/ServicesSection'
+import SportSection from './components/SportSection'
+import ContactSection from './components/ContactSection'
+import Footer from './components/Footer'
+import WhatsAppButton from './components/WhatsAppButton'
 
 export default function App() {
   return (
     <div className="min-h-screen bg-[#2a2520] text-[#f5f0e8]">
       <Navbar />
-      <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/services" component={Services} />
-        <Route path="/contact" component={Contact} />
-      </Switch>
+      <HeroSection />
+      <AboutSection />
+      <ServicesSection />
+      <SportSection />
+      <ContactSection />
+      <Footer />
+      <WhatsAppButton />
     </div>
   )
 }
