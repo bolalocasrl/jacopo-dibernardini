@@ -17,12 +17,12 @@ export default function HeroSection() {
         style={{
           backgroundImage: `url(${jacopo1})`,
           backgroundSize: 'cover',
-          backgroundPosition: '60% 0%',
+          backgroundPosition: '75% 0%',
           backgroundRepeat: 'no-repeat',
           paddingTop: '120px',
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-[#2a2520] via-[#2a2520]/90 md:via-[#2a2520]/60 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#2a2520] via-[#2a2520]/80 md:via-[#2a2520]/40 to-transparent" />
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-32 w-full">
         <motion.div
           className="md:max-w-[50%]"
