@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useLang } from '../i18n/LangContext'
 import type { Lang } from '../i18n/translations'
-import sagomelogo from '../assets/sagomelogo.webp'
+import sagomelogo from '../assets/logojacopo1.png'
 
 const langs: Lang[] = ['it', 'es', 'en']
 
