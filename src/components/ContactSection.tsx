@@ -13,7 +13,7 @@ export default function ContactSection() {
     if (!privacy) return
     setStatus('sending')
     try {
-      const res = await fetch('https://formspree.io/f/YOURFORMID', {
+      const res = await fetch('https://formspree.io/f/xvznydpk', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
